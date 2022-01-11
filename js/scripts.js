@@ -63,9 +63,11 @@ function libreria(nombre){
     
     localStorage.libreria = JSON.stringify(librero);
     $("#librosAgregados").html(librero.length)
+    console.log(librero)
     //document.getElementById("librosAgregados").innerHTML= librero.length;    
 }
-$.getJSON("users.json",function(res){
-    console.log(res)
+
+//$.getJSON("users.json",function(res){
+//    console.log(res)
    
-})
+//})
